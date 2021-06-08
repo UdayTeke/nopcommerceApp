@@ -1,0 +1,66 @@
+1622917184435	geckodriver	INFO	Listening on 127.0.0.1:53704
+1622917187514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofilenh3OP1"
+1622917192060	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofilenh3OP1\\search.json.mozlz4", (void 0)))
+1622917207587	Marionette	INFO	Listening on port 53715
+1622917209032	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "stylesheets: fetch failed for https://admin-demo.nopcommerce.com/Themes/DefaultClean/Content/css/styles.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://admin-demo.nopcommerce.com/Themes/DefaultClean/Content/css/styles.css, using system principal instead."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+Handler function threw an exception: TypeError: this._eventCollector is null
+Stack: destroy@resource://devtools/server/actors/inspector/node.js:152:5
+destroy@resource://devtools/shared/protocol/Pool.js:199:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/page-style.js:133:38
+destroy@resource://devtools/shared/protocol/Pool.js:199:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/inspector/inspector.js:113:38
+destroy@resource://devtools/shared/protocol/Pool.js:199:17
+_detach@resource://devtools/server/actors/targets/browsing-context.js:1040:35
+destroy@resource://devtools/server/actors/targets/browsing-context.js:611:10
+onTransportClosed/<@resource://devtools/server/devtools-server-connection.js:493:34
+onTransportClosed@resource://devtools/server/devtools-server-connection.js:493:19
+close@resource://devtools/shared/transport/child-transport.js:63:18
+close@resource://devtools/server/devtools-server-connection.js:94:23
+onDisconnect<@resource://devtools/server/startup/frame.js:121:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 152, column: 5
+console.error: (new TypeError("this._eventCollector is null", "resource://devtools/server/actors/inspector/node.js", 152))
+console.error: ({})
+[Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/transport/child-transport.js :: send :: line 109"  data: no]: send@resource://devtools/shared/transport/child-transport.js:109:16
+send@resource://devtools/server/devtools-server-connection.js:99:20
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflow@resource://devtools/server/actors/reflow.js:80:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+1622917438790	Marionette	INFO	Stopped listening on port 53715
+1622917501077	geckodriver	INFO	Listening on 127.0.0.1:59808
+1622917504078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofileAgcMuJ"
+1622917504970	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofileAgcMuJ\\search.json.mozlz4", (void 0)))
+1622917510397	Marionette	INFO	Listening on port 63406
+1622917511314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622917567878	Marionette	INFO	Stopped listening on port 63406
+1622917571677	geckodriver	INFO	Listening on 127.0.0.1:63504
+1622917574715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofileIeDFvI"
+1622917575330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Uday\\AppData\\Local\\Temp\\rust_mozprofileIeDFvI\\search.json.mozlz4", (void 0)))
+1622917580567	Marionette	INFO	Listening on port 63515
+1622917581443	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622917593690	Marionette	INFO	Stopped listening on port 63515
